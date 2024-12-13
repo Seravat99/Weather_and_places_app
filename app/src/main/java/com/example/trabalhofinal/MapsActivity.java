@@ -79,7 +79,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     GeoDataClient geoDataClient;
 
-    String key = "AIzaSyC0HIrjG6HwL5qqNBL-OpWyguZgn0HgwEg";
+    String key = "Key2";
     StringBuilder stringBuilder = new StringBuilder("https://maps.googleapis.com/maps/api/place/nearbysearch/json?");
     StringBuilder LocalstringBuilder = new StringBuilder();
     LatLng localization;

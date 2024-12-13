@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBBBBB">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/amusement_park_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Amusement Park"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/amusement_park_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/amusement_park_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/aquarium_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Aquarium"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/aquarium_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/aquarium_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/art_gallery_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Art Gallery"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/art_gallery_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/art_gallery_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/atm_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="ATM"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/atm_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/atm_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bar_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Bar"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/bar_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/bar_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bus_station_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Bus Station"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/bus_station_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/bus_station_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cafe_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Cafe"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/cafe_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/cafe_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/car_rental_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Car Rental"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/car_rental_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/car_rental_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/church_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Church"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/church_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/church_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/gas_station_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Gas Station"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/gas_station_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/gas_station_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/hospital_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Hospital"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/hospital_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/hospital_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/laundry_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Laundry"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/laundry_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/laundry_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/mosque_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Mosque"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/mosque_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/mosque_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/movie_theater_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Movie Theater"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/movie_theater_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/movie_theater_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/museum_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Museum"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/museum_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/museum_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/night_club_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Night Club"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/night_club_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/night_club_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/park_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Park"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/park_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/park_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/parking_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Parking"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/parking_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/parking_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pharmacy_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Pharmacy"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/pharmacy_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/pharmacy_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/restaurant_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Restaurant"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/restaurant_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/restaurant_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/shopping_mall_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Shopping Mall"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/shopping_mall_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/shopping_mall_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/stadium_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Stadium"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/stadium_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/stadium_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/store_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Store"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/store_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/store_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subway_station_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Subway Station"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/subway_station_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/subway_station_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/supermarket_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Supermarket"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/supermarket_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/supermarket_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/synagogue_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Synagogue"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/synagogue_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/synagogue_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tourist_attraction_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Tourist Attraction"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/tourist_attraction_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/tourist_attraction_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/train_station_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Train Station"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/train_station_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/train_station_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/travel_agency_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="Travel Agency"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/travel_agency_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/travel_agency_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/zoo_card"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#505B8CE1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"
+                    android:text="ZOO"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/zoo_image"
+                    android:layout_width="324dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/zoo_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="Name of type place"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.drawerlayout.widget.DrawerLayout>
